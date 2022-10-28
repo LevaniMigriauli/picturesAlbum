@@ -1,13 +1,40 @@
 body {
+  background-color: blanchedalmond;
+  width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 70%;
+}
 
-#btn-main {
-  width: 90px;
-  height: 30px;
-  display: block;
+.img {
+  width: 19%;
+  height: 100%;
+  border-radius: 15px;
+  background-position: center;
+  background-size: cover;
   cursor: pointer;
+}
+
+.img1 {
+  background: url(/imgs/breathtaking-shot-beautiful-stones-turquoise-water-lake-hills-background_181624-12847.webp);
+}
+.img2 {
+  background: url(/imgs/flowers-276014__340.jpeg);
+}
+.img3 {
+  background: url(/imgs/istockphoto-517188688-612x612.jpeg);
+}
+.img4 {
+  background: url(/imgs/pexels-ezra-comeau-2387418.jpeg);
+}
+.img5 {
+  background: url(/imgs/photo-1539667468225-eebb663053e6.jpeg);
 }
