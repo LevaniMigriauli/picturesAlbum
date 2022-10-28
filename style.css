@@ -1,0 +1,13 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#btn-main {
+  width: 90px;
+  height: 30px;
+  display: block;
+  cursor: pointer;
+}
