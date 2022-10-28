@@ -1,17 +1,16 @@
 "use strict";
 
-let btnMain = document.getElementById("btn-main");
-let body = document.querySelector("body");
+let img = document.querySelectorAll(".img");
+let img1 = document.querySelector(".img1");
 
-function getRandomColor() {
-  let letters = "0123456789ABCDEF";
-  let color = "#";
-  for (let i = 0; i < 6; i++) {
-    color += letters[Math.floor(Math.random() * 16)];
-  }
-  return color;
-}
-
-btnMain.addEventListener("click", function () {
-  body.style.backgroundColor = getRandomColor();
-});
+img.forEach((el, i) =>
+  el.addEventListener("click", function () {
+    console.log(el, i);
+    img[i].style.width = "100%";
+    console.log(typeof img);
+    console.log(img);
+    let arr = Object.values(img);
+    arr.splice(i, 1);
+    console.log(arr);
+  })
+);
