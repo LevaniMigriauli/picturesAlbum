@@ -18,10 +18,11 @@ body {
   width: 19%;
   height: 100%;
   border-radius: 15px;
-  /* background-position: center !important; */
+  background-position: center !important;
   background-size: cover !important;
   cursor: pointer;
   background-repeat: no-repeat !important;
+  transition: all 3s;
 }
 
 .img1 {
@@ -38,4 +39,12 @@ body {
 }
 .img5 {
   background: url(/imgs/photo-1539667468225-eebb663053e6.jpeg);
+}
+
+.img-widen {
+  width: 75%;
+}
+
+.img-small {
+  width: 5%;
 }
