@@ -18,9 +18,10 @@ body {
   width: 19%;
   height: 100%;
   border-radius: 15px;
-  background-position: center;
-  background-size: cover;
+  /* background-position: center !important; */
+  background-size: cover !important;
   cursor: pointer;
+  background-repeat: no-repeat !important;
 }
 
 .img1 {
