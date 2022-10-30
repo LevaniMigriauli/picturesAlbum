@@ -23,14 +23,12 @@ body {
   cursor: pointer;
   background-repeat: no-repeat !important;
   transition: all 3s;
-  /* position: relative; */
 }
 
 .img-text {
   content: "Mother nature";
   bottom: 3%;
   left: 5%;
-  /* position: absolute; */
 }
 
 .img1 {
