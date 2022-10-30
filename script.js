@@ -7,6 +7,8 @@ let arr = Object.values(img);
 const imgWiden = img.forEach((el, i) =>
   el.addEventListener("click", function () {
     img[i].classList.toggle("img-widen");
+    // img[i].classList.toggle("img-text");
+    // imgWidenAfter.style.color = "#fff";
     // img.style.width = "19%";
     console.log(el, i);
     // img[i].style.width = "100%";
