@@ -1,7 +1,6 @@
 "use strict";
 
 let img = document.querySelectorAll(".img");
-
 let arr = Object.values(img);
 
 const imgWiden = img.forEach((el, i) =>
