@@ -1,0 +1,23 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  .btns {
+    .btn {
+    }
+  }
+
+  h2 {
+  }
+
+  #products {
+    margin: 0 auto;
+
+    // gap: 10px;
+    .product-box {
+      width: 200px;
+      height: 60px;
+      background-color: darkcyan;
+    }
+  }
+}

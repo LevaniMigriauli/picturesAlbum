@@ -1,65 +1,15 @@
-body {
-  background-color: blanchedalmond;
+.container {
   width: 100vw;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 80%;
-  height: 70%;
 }
 
-.img {
-  width: 19%;
-  height: 100%;
-  border-radius: 15px;
-  background-position: center !important;
-  background-size: cover !important;
-  cursor: pointer;
-  background-repeat: no-repeat !important;
-  transition: all 3s;
+.container #products {
+  margin: 0 auto;
 }
 
-.img-text {
-  content: "Mother nature";
-  bottom: 3%;
-  left: 5%;
+.container #products .product-box {
+  width: 200px;
+  height: 60px;
+  background-color: darkcyan;
 }
-
-.img1 {
-  background: url(./imgs/breathtaking-shot-beautiful-stones-turquoise-water-lake-hills-background_181624-12847.webp);
-}
-.img2 {
-  background: url(./imgs/flowers-276014__340.jpeg);
-}
-.img3 {
-  background: url(./imgs/istockphoto-517188688-612x612.jpeg);
-}
-.img4 {
-  background: url(./imgs/pexels-ezra-comeau-2387418.jpeg);
-}
-.img5 {
-  background: url(./imgs/photo-1539667468225-eebb663053e6.jpeg);
-}
-
-.img-widen {
-  width: 75%;
-  position: relative;
-  /* transition: all 2s cubic-bezier(0.29, 1.01, 1, -0.68); */
-}
-.img-widen::after {
-  content: "Mother Nature";
-  color: #15ff00ec;
-  position: absolute;
-  bottom: 5%;
-  left: 7%;
-}
-
-.img-small {
-  width: 5%;
-}
+/*# sourceMappingURL=style.css.map */
